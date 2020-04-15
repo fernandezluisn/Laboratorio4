@@ -1,10 +1,11 @@
 <html>
  
 
-  
+  <div style="width: 15rem ;display: flex;flex-direction:column; align-items: center;text-justify: auto; justify-content: center; height: 20rem;margin-right: 28rem; margin-left: 32rem; margin-top: 12rem; background-color: rgba(194, 201, 202, 0.966); border: 1rem solid rgba(194, 201, 202, 0.966);border-radius: 1rem;">
 
-  mail:<input type="text" [(ngModel)]="usuario.email"><br>
-  pass:<input type="text" [(ngModel)]="usuario.pass"><br>
+  <a style=" justify-content: center; color: rgb(114, 76, 26); font-size: 2.5rem;">Mail</a><input style="width: 8rem;" type="text" class="form-control" [(ngModel)]="usuario.email"><br>
+  <a style="justify-content: center;color: rgb(114, 76, 26);font-size: 2.5rem;">Password</a><input style=" width: 8rem;" type="text" class="form-control" [(ngModel)]="usuario.pass"><br>
 
-  <button (click)="Ingresar()">Ingresar</button>
+  <button type="button" class="btn btn-info" (click)="Ingresar()">Ingresar</button>
+</div>
 </html>
